@@ -146,7 +146,6 @@ def get_reco(track_stats, track_id):
     result = json.loads(data)['content']
     return result
 
-spo_playlist_id = "4ueakqRRxt3X75WM0IW9DD"
 
 def main():
     token = get_token()
@@ -183,3 +182,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
